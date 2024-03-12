@@ -1,0 +1,63 @@
+#image{
+    height: 100%;
+    width: 40vw;
+}
+
+.everything{
+    position: fixed;
+    left: 7vw;
+    top: 0vh;
+    display: flex;
+    align-items: center;
+}
+
+.body{
+    background-color: rgb(27, 27, 27);
+}
+
+div#img_banner{
+    position: absolute;
+    top: 20%;
+    height: 15%;
+    width: 50%;
+    background-color: rgb(240, 248, 255, 0.3);
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+}
+
+#image_container{
+    height: 100vh;
+}
+
+.banner_text{
+    position: relative;
+    bottom: 20%;
+    font-size: 3.5rem;
+
+}
+
+.coconut{
+    position: relative;
+    left: 3%;
+    height: 8rem;
+    width: 5rem;
+}
+
+#sign_up{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 100vh;
+    background-color:rgb(251, 239, 228);
+}
+
+.form{
+    width: 40vw;
+    height: 33vh;
+    background-color:white ;
+}
+
+.form_container{
+    box-shadow:rgb(213, 176, 152) 0px 10px 8px;
+}
