@@ -33,22 +33,20 @@ div#img_banner{
 
 .banner_text{
     position: relative;
-    bottom: 20%;
+    bottom: 5%;
     font-size: 3.5vw;
     color: rgb(246, 239, 223);
-   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .coconut{
     position: relative;
     height: 100%;
-    left: 3%;
+    left: 5%;
     top: 10%;
 }
 
 #sign_up{
-    /*display: flex;*/
-    align-items: center;
     width: 40vw;
     height: 100vh;
     background-color:rgb(251, 239, 228);
@@ -79,10 +77,10 @@ div#img_banner{
 }
 
 .legend{
-    font-size: 1.5vw;
+    font-size: .9vw;
     position: relative;
     color: rgb(94, 44, 11);
-    top: 2%;
+    top: 3%;
     left: 6%;
     margin-bottom: 2%;
     font-family:Arial, Helvetica, sans-serif
