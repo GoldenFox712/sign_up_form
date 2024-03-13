@@ -47,7 +47,7 @@ div#img_banner{
 }
 
 #sign_up{
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     width: 40vw;
     height: 100vh;
@@ -58,11 +58,13 @@ div#img_banner{
     width: 40vw;
     height: 33vh;
     background-color:white ;
-    overflow: hidden;
+    
 }
 
 .form_container{
     box-shadow:rgb(213, 176, 152) 0px 10px 8px;
+    position: relative;
+    top: 11vh;
 }
 
 .form_inputs{
@@ -72,12 +74,14 @@ div#img_banner{
     align-content: space-between;
     justify-content: space-evenly;
     position: relative;
-    right:5%
+    right:5%;
+    overflow: hidden;
 }
 
 .legend{
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     position: relative;
+    color: rgb(94, 44, 11);
     top: 2%;
     left: 6%;
     margin-bottom: 2%;
@@ -91,7 +95,8 @@ div#img_banner{
 }
 
 label{
-    font-size: 1vw;
+    font-size: .9vw;
+    color: rgb(109, 72, 3);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -107,6 +112,9 @@ input{
 }
 
 input:focus{
+    outline: none;
+    border: 1px solid;
+    border-color: brown;
     box-shadow:rgb(213, 176, 152) 10px 10px 8px;
     background-color: rgba(243, 131, 131, 0.151);
 }
@@ -125,5 +133,37 @@ input:user-invalid{
 }
 
 button{
-    background-color: green;
+    background-color: rgb(214, 91, 3);
+    position: relative;
+    border: 1px solid;
+    border-color: rgb(237, 239, 237);
+    top: 14%;
+    left: 8%;
+    height: 15%;
+    width: 25%;
+    border-radius: 7px;
+    font-size: 1rem;
+    color: rgb(250, 248, 245);
+    box-shadow:rgb(98, 81, 70) 3px 3px 8px;
+    flex: 1 1;
+    overflow: hidden;
+}
+
+button:hover{
+    filter: brightness(88%);
+}
+
+button:active{
+    filter: brightness(60%);
+    box-shadow:rgb(98, 81, 70) 1px 1px 8px;
+}
+
+.hook_text{
+    position: relative;
+    top: 10%;
+    width: 80%;
+    left: 7%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 1 1;
 }
